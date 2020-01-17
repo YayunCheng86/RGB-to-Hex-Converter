@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style='background-color: black;'>
+    <div class="panel">
+        <form>
+            <div class="form-group d-flex align-items-center">
+                <div class="d-flex mr-2 justify-content-center align-items-center head" style="width: 10%; height: 15%; background-color: red;">R</div>
+                <input type="range" min="0" max="255" value='0' class="form-control-range R-slider" id="formControlRange" style='width: 46%;'>
+                <div class="R-color-value d-flex ml-2 justify-content-center align-items-center tail" style="width: 20%; height: 30px; background-color: red;">0</div>
+            </div>
+        </form>
+        <form>
+            <div class="form-group d-flex align-items-center">
+                <div class="d-flex mr-2 justify-content-center align-items-center head"
+                    style="width: 10%; height: 15%; background-color: #00ff00;">G</div>
+                <input type="range" min="0" max="255" value='0' class="form-control-range G-slider" id="formControlRange" style='width: 46%;'>
+                <div class="G-color-value d-flex ml-2 justify-content-center align-items-center tail" style="width: 20%; height: 30px; background-color: #00ff00;">0</div>
+            </div>
+        </form>
+        <form>
+            <div class="form-group d-flex align-items-center">
+                <div class="d-flex mr-2 justify-content-center align-items-center head"
+                    style="width: 10%; height: 15%; background-color: blue;">B</div>
+                <input type="range"  min="0" max="255" value='0' class="form-control-range B-slider" id="formControlRange" style='width: 46%;'>
+                <div class="B-color-value d-flex ml-2 justify-content-center align-items-center tail" style="width: 20%; height: 30px; background-color: blue;">0</div>
+            </div>
+        </form>
+        <div id="Hex-color-code" style="width: 83%; height: 75px;">#000000</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
